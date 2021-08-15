@@ -1,0 +1,17 @@
+openapi: "3.0.0"
+info:
+  title: "Sample API"
+  description: "Optional multiline or single-line description in [CommonMark](http://commonmark.org/help/) or HTML."
+  version: "1.0.0"
+paths:
+  /health/check:
+    get:
+      operationId: "getHealth"
+      tags:
+        - "Health"
+      summary: "Check service's health"
+      responses:
+        200:
+          description: "OK"
+        400:
+          description: "Service unavailable"

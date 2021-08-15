@@ -1,0 +1,13 @@
+{
+    "groupId": "io.lightfeather",
+    "artifactId": "helloworld.generated-api",
+    "artifactVersion": "1.0.0",
+    "modelPackage": "io.lightfeather.helloworld.rest.models",
+    "apiPackage": "io.lightfeather.helloworld.rest.api",
+    "useBeanValidation": true,
+    "useTags": true,
+    "performBeanValidation": true,
+    "hideGenerationTimestamp": true,
+    "implicitHeaders": true,
+    "interfaceOnly": true
+}
